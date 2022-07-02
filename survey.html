@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="hersey">
+        <div class="heading">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+
+        <div class="lacivert">
+                <form id="survey-form" class="formlar">
+                    <label id="name-label" class="la" >Enter Your First Name: <input  class="in" type="text" required  id="name" placeholder="gregdfsg dfsdgfdfsg"/></label>
+                    <label id="email-label" >Enter Your Last Name: <input class="in" type="text" required id="name" /></label>
+                    <label  id="number-label">Enter Your Age: <input class="in" type="number" required id="number" min="18" max="99" placeholder="28"/></label>
+                    <label id="email-label">Enter Your Email: <input class="in" type="email" required id="email" placeholder="gregdfsg@gmail.com" /></label>
+                    <label>Create a New Password: <input class="in" type="password" pattern="[a-z0-5]{8,}" required  id="name" /></label>
+                
+
+                    <p class="select">How did you hear about us?</p>
+                    <select id="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">freeCodeCamp News</option>
+                        <option value="2">freeCodeCamp YouTube Channel</option>
+                        <option value="3">freeCodeCamp Forum</option>
+                        <option value="4">Other</option>
+                    </select>
+
+                    <div class="hey">
+                        <label><input type="radio" name="account-type" class="inline" value="Personal Account" />Personal Account</label>
+                        <label><input type="radio" name="account-type" class="inline" value="Business Account" />Business Account</label>
+                    </div>
+
+                    <div class="boxes">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Saer">
+                        <label for="vehicle1"> I have a bike</label>
+
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label>
+                    </div>
+                    
+                   
+
+
+                    <p class="bio">Provide a bio:</p>
+                    <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                    
+
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+
+    </div>
+  
+</body>
+</html>
